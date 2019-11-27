@@ -1,4 +1,6 @@
-A) TO add new items copy/paste a new file in items folder. change the following desired things.
+#Sample Static Bakery Items Website
+##Usage
+- TO add new items copy/paste a new file in items folder. change the following desired things.
     1.  Image url. i.e. on line:22 of the file
             data-menu-name="PREVIEW_INLINE_IMAGE" style="background-image:url(--> this link <--);"
     2. Title in line:37
@@ -12,7 +14,7 @@ A) TO add new items copy/paste a new file in items folder. change the following 
                 </p>
             </div>
 
-B) Now to show this item on menu page
+- Now to show this item on menu page
     1. Open file on root onload.js
     2. Add new file name in the array on line:4
         a) let's say we have items before 
@@ -23,4 +25,4 @@ B) Now to show this item on menu page
                 let items = [
                     'item1.html', 'item2.html', 'item3.html',
                 ];
-C) To change the logo of the website. Change the file under images/logo.png  to the new image with the same name
+- To change the logo of the website. Change the file under images/logo.png  to the new image with the same name
