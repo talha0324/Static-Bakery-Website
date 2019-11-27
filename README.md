@@ -3,16 +3,16 @@
 ## Usage
 
 - To add new items copy/paste the template file in items folder and rename it to something new. Make the following changes.
-    1.  Image url. i.e. on line:22 of the file. Replace **{image_link}** with your image link 
+    1.  Image url. i.e. on line:27 of the file. Replace **{image_link}** with your image link 
     
         `data-menu-name="PREVIEW_INLINE_IMAGE" style="background-image:url({image_link});"`
-    2. Title in line:37. Replace **{title}** with the desired title
+    2. Title in line:43. Replace **{title}** with the desired title
 
         `data-menu-name="PREVIEW_SUBTITLE">{title}</h3>`
-    3. Price in line:48. Replace **{price}** with desired price
+    3. Price in line:50. Replace **{price}** with desired price
             
         `data-menu-name="PREVIEW_TITLE">{price}</h2>`
-    4. Description starts from line:61. Replace **{description}** with desired description
+    4. Description starts from line:59. Replace **{description}** with desired description
         
         ```
         data-menu-name="PREVIEW_BODY">
